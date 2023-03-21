@@ -1,9 +1,7 @@
 import math
-print ("Ingrese tu nombre: ")
-nombre = input()
+nombre = input("Ingrese tu nombre: ")
 
-print("Ingrese la cantidad de viajeros: ")
-viajeros = int(input())
+viajeros = int(input("Ingrese la cantidad de viajeros: "))
 
 acompañantes = math.ceil(viajeros / 30)
 precio = 5000 * (viajeros + acompañantes)
